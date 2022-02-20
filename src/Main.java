@@ -1,4 +1,3 @@
-import Commands.Command;
 import Commands.HelpCommand;
 
 import java.util.HashMap;

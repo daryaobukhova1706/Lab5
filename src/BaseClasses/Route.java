@@ -17,17 +17,17 @@ public class Route implements Comparable {
         this.distance=distance;
 
     }
-    @Override
-    public int compareTo(Object o){
-        Route route= (Route) o;
-        int result= this.name-Route.name;
-        return result;
-    }
-    public void setId(){
 
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
+
+    public void setId(){
+        this.id = id;
     }
     public Long getId(){
-        return
+        return id;
     }
     public void setName(String name){
         this.name=name;

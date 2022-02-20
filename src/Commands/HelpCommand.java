@@ -1,8 +1,6 @@
 package Commands;
 
-import java.util.Scanner;
-
-public class HelpCommand implements Command{
+public class HelpCommand {
 
     @Override
     public String execute (Parameters parameters){
